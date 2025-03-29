@@ -8,10 +8,7 @@ import streamlit as st
 import os
 import shutil
 
-try:
-    shutil.rmtree('C:/Users/ganes/OneDrive/Desktop/Machine Vision')
-except FileNotFoundError:
-    print("Directory or file not found. Skipping deletion.")
+
 
 load_dotenv()
 

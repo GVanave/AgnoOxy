@@ -60,7 +60,7 @@ class HotelsSearchTools:
 
         response = requests.post(
             'https://realtime.oxylabs.io/v1/queries',
-            auth=("websearch", "IloveKsop1way+"),
+            auth=("web", "I+"),  #change this
             json=input_information,
         )
 
